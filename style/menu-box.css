@@ -1,0 +1,36 @@
+.menu-box{
+    height:0px;
+    overflow:hidden;
+    
+}
+.menu-box.active,.chat-content,.chat-info{
+    position: absolute;
+    width: 160px;
+    box-sizing: border-box;
+    padding: 5px;
+    box-shadow: 2px 2px 4px #262624;
+    background:#fff;
+    z-index: 10;
+    transition:.5s;
+}
+.menu-box.active{
+left: 65%;
+    top: 64px;
+    height: 230px;
+}
+.chat-content
+{
+    width:180px;
+    left:25%;
+    top:25%;
+}
+.chat-info{
+   width: 180px;
+   left:10%;
+   top:0;
+}
+.menu-box ul li, .chat-content ul li, .chat-info ul li{
+    list-style:none;
+    margin-bottom:10px;
+    font-size: 16px;
+}
