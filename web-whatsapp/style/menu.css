@@ -1,0 +1,128 @@
+
+.user-header{
+	position: fixed;
+}
+.box-1{
+	background: #ededed;
+    width: 362.25px;
+    height: 59px;
+    padding: 10px 16px;
+    position: relative;
+}
+.box-2{
+	position: relative;
+}
+
+.menu{
+	width: 10px;
+	height: 50px;
+	position: absolute;
+    left: 95%;
+    top:0;
+	cursor:pointer;
+}
+.menu:before,.menu:after,.middle{
+	content: '';
+	position: absolute;
+	width: 5px;
+	height:5px;
+	border-radius: 50%;
+	background:#888888 ;
+}
+
+.menu:before{
+top:10px;
+}.menu:after{
+	top: 26px;
+}
+.middle{
+	top:18px;
+}
+.user-img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+	cursor:pointer;
+}
+.user-new-chat{
+width: 50px;
+	height: 50px;
+	position: absolute;
+	left:75%;
+	top:0;
+	cursor:pointer;
+}
+.user-status
+{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 60%;
+    top:0;
+    cursor:pointer;
+}
+.search-img{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 6%;
+    top: 15px;
+	cursor:pointer;
+}
+.user-img img,.user-new-chat img,.user-status img,.search-img img{
+	width: 100%;
+	height: 100%;
+}
+
+.search-box{
+width: 391px;
+    height: 49px;
+    position: absolute;
+    top: 89px;
+    left: 3px;
+    overflow: hidden;
+    z-index: -2;
+}
+.search-box .se{
+        width: 328.25px;
+    position: relative;
+    left: 45px;
+    height: 47px;
+    border: none;
+    padding-left: 24px;
+    font-size: 15px;
+    z-index: 2;
+
+}
+.search-box .se:focus{
+	    outline: -webkit-focus-ring-color auto 0px;
+}
+
+.pop{
+	width: 77px;
+	height: 20px;
+    background: #fff;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #ada5a5;
+    border-radius: 4px;
+    font-size: 15px;
+    box-shadow: 5px 3px 3px #6d6868;
+    padding: 6px;
+    visibility: hidden;
+ 	}
+.menu .pop{
+	
+	position: relative;
+    left: 86%;
+}
+.chat .pop{
+	position: relative;
+	left: 76%;
+}
+.status .pop{
+	position: relative;
+	left:66%;
+	top: 0
+}

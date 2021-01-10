@@ -1,0 +1,135 @@
+body{
+	height: 100vh;
+	overflow: hidden;
+}
+
+/* profile container css below */
+.pro-container{
+    width: 400px;
+    position: relative;
+    left: 0;
+    margin: 0;
+    transition: 0.4s;
+}
+.pro-container.active{
+    left: -420px;
+    overflow: hidden;
+    transition: .4s;
+}
+
+.pro-head-content {
+	 height: 80vh;
+ overflow: auto;
+overflow-x: hidden;
+ padding: 10px;
+ transition: .4s;
+    transition-delay: .4s;
+	  background: #ededed;
+      
+
+     
+}
+.pro-head-content.active{
+  height: 0;
+        overflow: hidden;
+}
+
+/* profile container css above */
+
+/* profile written and arrow css below  */
+.pro-head{
+	width: 100%;
+	height: 110px;
+	background: #00bfa5;
+
+}
+._cpr{
+    position: relative;
+    top: 52%;
+    left: 20%;
+    font-size: 30px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+/* profile written and arrow css above*/
+
+/* profile image css below */
+.pro-img-box {
+	padding:30px;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.pro-img-box .pro-img {
+ 
+    margin-left: 15%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    cursor:pointer;
+}
+.pro-img-box .pro-img img{
+	width: 100%;
+	height: 100%;
+}
+.change-image{
+	overflow: hidden;
+    position: relative;
+    left: 46%;
+    top: -50%;
+    width: 0px;
+    height: 0px;
+    background: #00000063;
+    color: #f7f4f4;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 15;
+    opacity: 1;
+    transition: .4s;
+}
+.change-image.active {
+     display: block;
+    position: relative;
+   left: 0;
+    top: -101%;
+    width: 200px;
+    height: 200px;
+    background: #00000063;
+    color: #f7f4f4;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 15;
+    opacity: 1;
+    transition: .4s;
+}
+
+/* profile image css above*/
+
+/* profile user name css below*/
+.name-box {
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    background: #fff;
+}
+.name-input{
+	margin-top: 15px
+}
+.username{
+	border: none;
+    font-size: 20px;
+    border-bottom: 2px solid #00bfa5;
+    width: 85%;
+}
+.username:focus{
+	outline:none;
+
+}
+.grb{
+	padding: 20px;
+	color:#777;
+	width: 300px;
+}
+
+/* profile user name css above*/
