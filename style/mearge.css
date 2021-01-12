@@ -1,0 +1,32 @@
+body{
+    margin:0;
+    padding:0;
+    overflow: hidden;
+
+}
+.pos-user-head{
+    position: absolute;
+    z-index: 2;
+}
+.pos-cont {
+    position: absolute;
+    left: 0;
+    top: 27%;
+    z-index: -1;
+}
+.pos-user-head2{
+    position: relative;
+    z-index: 1;
+}
+.pos-message-box{
+    position: absolute;
+    z-index: -10;
+    left: 394.25px;
+    width: 100%;
+}
+
+.pos-profile{
+    position: absolute;
+    width: 0;
+    z-index: 55;
+}

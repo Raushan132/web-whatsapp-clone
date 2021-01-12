@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	
 	<link rel="stylesheet" type="text/css" href="style/menu.css">
-	<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/hover.js"></script>
+
 </head>
 <body>
 <div class="user-header">
@@ -19,7 +18,7 @@
 	<div class="search-box">
 
 		<span class="search-img"><img src="image/search.png"></span>
-			<input type="text" placeholder="Search or start new chart" name="search" 
+			<input type="text" placeholder="Search or start new chat" name="search" 
 			class="se">
 	</div>
 </div>

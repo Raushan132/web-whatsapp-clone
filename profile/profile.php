@@ -2,9 +2,9 @@
 <html>
 <head>
 	<title>	</title>
-	<link rel="stylesheet" type="text/css" href="profile.css">
-		<script type="text/javascript" src="jquery.js"></script>
-		<script type="text/javascript" src="click.js"></script>
+	<link rel="stylesheet" type="text/css" href="profile/profile.css">
+		<script type="text/javascript" src="profile/jquery.js"></script>
+		<script type="text/javascript" src="profile/click.js"></script>
 </head>
 <body>
 <div class="pro-container"><!-- whole body profile container -->
@@ -16,7 +16,7 @@
 	     <!-- user img editing below -->
 		<div class="pro-img-box">
 			
-			<div class="pro-img"><img src="../image/home.jpg"><div class="change-image">Change image</div></div>
+			<div class="pro-img"><img src="image/home.jpg"><div class="change-image">Change image</div></div>
 		
 		</div><!-- user img editing here above -->
 

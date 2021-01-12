@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	
 	<link rel="stylesheet" type="text/css" href="style/contact.css">
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/hover.js"></script>
+
 </head>
 <body>
-<div>
+<div >
 	<div class="container">
 		<div class="content-box1">
 			<div class="box-img"><img src="image/home.jpg"></div>

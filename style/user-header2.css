@@ -1,18 +1,14 @@
-body{
-	height: 200vh;
-	overflow: hidden;
-	margin: 0;
-	padding: 0;
-}
+
 .header{
 	
-	width: 100%;
+	width: 70%;
 	position: fixed;
-	left:362.25px;
-	height: 49px;
+    left: 394.25px;
+    height: 57px;
 	background: #ededed;
 	padding: 10px 16px;
 	display: flex;
+	border:1px solid #706e6e2e;
 }
 .header .header-img{
 	width: 50px;
@@ -31,7 +27,7 @@ body{
     width: 32px;
     height: 32px;
     line-height: 2px;
-    left: 0%;
+    left: 15%;
     top:8px;
     cursor: pointer;
 }
@@ -44,6 +40,6 @@ body{
     cursor:pointer;
 }
 .header .menu{
-	left:30px;
+	left:21%;
 	position: relative;
 }
